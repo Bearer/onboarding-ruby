@@ -11,9 +11,6 @@ Bearer.init_config do |config|
   config.secret_key = ENV.fetch('BEARER_SECRET_KEY')
 end
 
-puts '-- Waiting for initialization --'
-sleep(10)
-
 # Postman-echo
 puts '-- Sending API calls to Postman-Echo --'
 HTTParty.get(
