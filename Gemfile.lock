@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bearer-agent (3.2.0)
+    bearer-agent (3.3.1)
       rack
     dotenv (2.7.5)
     httparty (0.18.1)
